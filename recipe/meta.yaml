@@ -19,13 +19,11 @@ build:
 requirements:
   host:
     - perl =>5.32
-    - python
     - make  # [not win]
     - m2-make  # [win]
 
   run:
     - perl =>5.32
-    - python
 
 test:
   # Perl 'use' tests
@@ -37,7 +35,7 @@ test:
 
 about:
   home: http://metacpan.org/pod/Data-Dumper-Concise
-  license: license: "Artistic-1.0 OR GPL-1.0-or-later"
+  license: "Artistic-1.0 OR GPL-1.0-or-later"
   summary: 'Less indentation and newlines plus sub deparsing'
 
 extra:
