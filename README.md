@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/perl-data-dumpe
 
 Home: http://metacpan.org/pod/Data-Dumper-Concise
 
-Package license: perl_5
+Package license: Artistic-1.0 OR GPL-1.0-or-later
 
 Summary: Less indentation and newlines plus sub deparsing
 
@@ -128,7 +128,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -176,5 +176,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@conda-forge/perl-packagers](https://github.com/orgs/conda-forge/teams/perl-packagers/)
 * [@khaled196](https://github.com/khaled196/)
 
