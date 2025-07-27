@@ -19,6 +19,7 @@ build:
 requirements:
   host:
     - perl =>5.32
+    - python
     - make  # [not win]
     - m2-make  # [win]
 
