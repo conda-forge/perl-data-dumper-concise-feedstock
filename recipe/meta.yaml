@@ -35,8 +35,7 @@ test:
 
 about:
   home: http://metacpan.org/pod/Data-Dumper-Concise
-  license: "Artistic-1.0 OR GPL-1.0-or-later"
-  license_file: "LICENSE"
+  license: Artistic-1.0
   summary: 'Less indentation and newlines plus sub deparsing'
 
 extra:
