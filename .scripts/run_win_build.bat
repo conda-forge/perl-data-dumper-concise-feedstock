@@ -25,7 +25,9 @@ set "MICROMAMBA_EXE=%MICROMAMBA_TMPDIR%\micromamba.exe"
 
 echo Downloading micromamba %MICROMAMBA_VERSION%
 if not exist "%MICROMAMBA_TMPDIR%" mkdir "%MICROMAMBA_TMPDIR%"
+
 certutil -urlcache -split -f "%MICROMAMBA_URL%" "%MICROMAMBA_EXE%"
+
 if !errorlevel! neq 0 exit /b !errorlevel!
 
 echo Creating environment
@@ -143,4 +145,6 @@ if /i "%CI%" == "azure" (
     echo ##[endgroup]
     exit /b
 )
+
 exit /b
+

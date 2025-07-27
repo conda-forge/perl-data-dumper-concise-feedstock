@@ -35,9 +35,10 @@ test:
 
 about:
   home: http://metacpan.org/pod/Data-Dumper-Concise
-  license: perl_5
+  license: Artistic-1.0
   summary: 'Less indentation and newlines plus sub deparsing'
 
 extra:
   recipe-maintainers:
+    - conda-forge/perl-packagers
     - khaled196

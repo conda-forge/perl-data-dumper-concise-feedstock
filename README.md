@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/perl-data-dumpe
 
 Home: http://metacpan.org/pod/Data-Dumper-Concise
 
-Package license: perl_5
+Package license: Artistic-1.0 OR GPL-1.0-or-later
 
 Summary: Less indentation and newlines plus sub deparsing
 
@@ -190,5 +190,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@conda-forge/perl-packagers](https://github.com/orgs/conda-forge/teams/perl-packagers/)
 * [@khaled196](https://github.com/khaled196/)
 
