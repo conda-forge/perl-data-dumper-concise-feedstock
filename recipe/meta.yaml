@@ -25,6 +25,7 @@ requirements:
 
   run:
     - perl =>5.32
+    - python
 
 test:
   # Perl 'use' tests
@@ -36,7 +37,7 @@ test:
 
 about:
   home: http://metacpan.org/pod/Data-Dumper-Concise
-  license: perl_5
+  license: license: "Artistic-1.0 OR GPL-1.0-or-later"
   summary: 'Less indentation and newlines plus sub deparsing'
 
 extra:
